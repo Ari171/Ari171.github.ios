@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding:1rem;
+}html {
+    font-size: 62.5%;
+    box-sizing: border-box;}
+    *, *:before, *:after {
+        box-sizing: inherit;
+}
+
+
+body {
+    background-color: #eee;
+    font-size: 16px; /* 1rem=10px */
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(to top,#f8c471 30%, white 100% );
+
+}
+
+h3{
+    font-size: 2.7rem;
+    text-align:center;
+    color: #CD1106;
+    border-style: solid;
+    border-color: #ff96f1;
+    border-radius: 5px;
+}
+
+.boton{
+    background-color:rgb(229, 92, 18);
+    color: rgb(48, 11, 211);
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #ceff08;
+    border-radius: 5px;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.titulo1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    text-shadow: 3px 5px 2px #FF6B37;
+}
+
+.titulo2 {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    text-shadow: 3px 5px 2px #fffd83a9;
+}
+   
+
+.subtitulo {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0;
+}
+
+.productos {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    text-shadow: 3px 5px 5px yellow;
+
+}
+
+
+
+.nav-bg{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.navegacion-principal{
+   display: flex;
+   flex-direction: column;
+   
+   
+
+}
+@media (min-width: 768px) {
+    .navegacion-principal{
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+}
+
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    color: tomato;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1rem;
+      
+    
+}
+
+.navegacion-principal a:hover {
+    background-color: #DAF7A6;
+    color: black;
+
+}
+
+.hero{
+    background-image: url(../images/huellas.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: left;
+
+   
+   
+}
+
+.contenido-hero {
+background-color: rgb(0,0,0, .5);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.cielo {
+    background-image: url(../images/cielo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.item-img {
+    max-width: 100%;
+    display: block;
+    height: 20rem
+    
+}
+
+.item {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+    
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.separador {
+    clear: both;
+}
+
+.fin{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-login{
+    width: 400px;
+    height: 300;
+    background-color: rgba(216, 174, 95, 0.768);
+    margin: auto;
+    margin-top: 0px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 10px 10px;
+    border-top: 5px;
+    float:right;    
+}
+
+.form-login h5{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    
+}
+
+.carritocompras{
+
+align-items: baseline;
+   
+}
+
+.navegacion-tercera{
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navegacion-tercera a{
+    background-color:rgba(255, 165, 81, 0.671);
+    color: black;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    width: 90%;
+    text-align: center;
+
+}
+
+@media (min-width: 768px) {
+    .navegacion-tercera a {
+        width: auto;
+    }
+    
+}
+
+.compra{
+    text-align: center;
+    color:white;
+    text-shadow: 3px 5px 5px tomato;
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    display:block;
+}
+
+/**contacto**/
+.formulario{
+    background-color: sandybrown;
+    width: min(60rem, 80%); /**utilizar el valor mas pequeño**/
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.formulario fieldset{
+    border: none;
+
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform:uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+}
+
+.campo {
+    margin-bottom: 1rem;
+
+
+}
+
+.campo label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+
+}
+
+
+.regresar{
+    background-color:crimson;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+.facebook
+{
+background:url('../images/sprites.png') 0px -0px;
+width:64px;height:64px;
+display:inline-block;
+}
+
+.IG
+{
+background:url('../images/sprites.png') -64px -0px;
+width:64px;height:64px;
+display:inline-block;
+}
+
+.youtube
+{
+background:url('../images/sprites.png') -128px -0px;
+width:64px;height:64px;
+display:inline-block;
+}
+.slider-frame{
+    width: 320px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow:hidden;
+    
+    }
+
+.slider-frame ul{
+    display:flex;
+    padding:0;
+    width:400%;
+    animation: slide 16s infinite alternate ease-in-out;
+    }
+.slider-frame li{
+    list-style: none;
+    width:100%;
+}
+.slider-frame img{
+    width:100%;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
