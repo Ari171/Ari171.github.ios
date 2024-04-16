@@ -26,9 +26,16 @@ h3{
     border-radius: 5px;
 }
 
+.subtitulos{
+    text-align: left;
+    color: black;
+    font-size: 3rem;
+    text-shadow: 3px 5px 2px #FF6B37;
+}
+
 .boton{
-    background-color:rgb(229, 92, 18);
-    color: rgb(48, 11, 211);
+    background-color:rgb(99, 18, 229);
+    color: rgb(211, 181, 11);
     border-radius: 1rem;
     border-style: solid;
     border-color: #ceff08;
